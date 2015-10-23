@@ -1,7 +1,7 @@
 {
   "name": "node-mysql-nesting",
   "description": "Nesting objects as a result of mysql joins",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Kyle Ladd",
     "email": "kladd6@gmail.com"
@@ -17,12 +17,12 @@
     "nesting"
   ],
   "bugs":{ 
-    "url" : "https://github.com/kyleladd/node-mysql-nested/issues",
+    "url" : "https://github.com/kyleladd/node-mysql-nesting/issues",
     "email" : "kladd6@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kyleladd/node-mysql-nested"
+    "url": "https://github.com/kyleladd/node-mysql-nesting"
   },
   "main": "main",
   "scripts": {

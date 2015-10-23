@@ -1,16 +1,10 @@
 var express = require('express');
 var app = express();
 var mysql = require('mysql');
-var func = require('./func.js');
-var mySQLConfiguration = {
-    hostname:"localhost",
-    database:"mysql-nested",
-    user: "",
-    password: "",
-    port: "3306"
-};
+var mysql_config = require('./mysql_config.js');
+var func = require('./main.js');
 
-var mysqlConnection = mysql.createConnection(mySQLConfiguration);
+var mysqlConnection = mysql.createConnection(mysql_config.mySQLConfiguration());
 
 app.get('/', function(req, res){
 
@@ -32,7 +26,8 @@ app.get('/', function(req, res){
 
         else {
             var nestedRows = func.convertToNested(rows, nestingOptions);
-            res.send(JSON.stringify(nestedRows));
+            // res.send(JSON.stringify(nestedRows));
+            res.send(nestedRows);
         }
 
     });

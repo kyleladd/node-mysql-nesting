@@ -1,8 +1,8 @@
-# node-mysql-nested
+# node-mysql-nesting
 
 Converts mysql query result array (flat) to nested (multi-dimensional) object.
 
-**Using:** node-mysql ([link](https://github.com/felixge/node-mysql))
+[![npm version](https://badge.fury.io/js/node-mysql-nesting.svg)](https://badge.fury.io/js/node-mysql-nesting)
 
 ## About
 
@@ -94,15 +94,15 @@ To illustrate how this function works, I included a simple application to the pa
 
 ### Installation
 
-* Create a new database `node-mysql-nested` and import ***node-mysql-nested.sql***.
+* Create a new database and import ***sql/node-mysql-nesting.sql***.
 
-* Change to the project folder: `$cd node-mysql-nested/`  
+* Rename mysql_config.example.js to mysql_config.js and update it with your mysql configuration
 
 * Install dependencies: `npm install`. This will install express and node-mysql.
 
-* Start the node server: `node app` (if you don't have nodejs installed, go to: http://nodejs.org/)
+* Start the node server: `node app.js` (if you don't have nodejs installed, go to: http://nodejs.org/)
 
-* Now, open your browser and go to `http://localhost:3000`. You should be able to see a nested result object.
+* Now, open your browser and go to `http://localhost:8081`. You should be able to see a nested result object.
 
 ## Contact
 
