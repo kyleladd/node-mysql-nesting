@@ -6,9 +6,9 @@ Converts mysql query result array (flat) to nested (multi-dimensional) object.
 
 ## About
 
-I have been working on AngularJS application. We have complex pages that require us to use multiple tables in a single query. After retrieving required information, in order to use it in controller, we had to manipulate resulting array, and convert it into nested javascript object. 
+MySQL returns flat objects.  We want to nest joined objects.
 
-To make it more clear, let's go over an example. Let's say we have courses table, each course belongs to a department and has various course sections. We would like to have a resulting courses array that has a department object property within it and have a list of course sections.
+Let's say we have courses table, each course belongs to a department and has various course sections. We would like to have a resulting courses array that has a department object property within it and have a list of course sections.
 
 ## Usage
 

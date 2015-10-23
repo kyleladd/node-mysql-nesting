@@ -1,11 +1,17 @@
 {
   "name": "node-mysql-nesting",
   "description": "Nesting objects as a result of mysql joins",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Kyle Ladd",
     "email": "kladd6@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Selman Kahya",
+      "email": "hey@selmanh.com"
+    }
+  ],
   "keywords": [
     "mysql",
     "nesting"
