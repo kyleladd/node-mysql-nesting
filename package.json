@@ -26,6 +26,6 @@
     "mysql" : "2.0.0-alpha8"
   },
   "devDependencies": {
-    "express": "3.3.4",
+    "express": "3.3.4"
   }
 }
